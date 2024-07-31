@@ -17,14 +17,14 @@ Railway images were used for feature extraction and anomaly detection.
 
 ## Observations
 ### Feature Map Comparison:
-![alt text](/Img/resnet_featuremaps)
-![alt text](/Img/snn_featuremaps)
+![alt text](/Img/resnet_featuremaps.png)
+![alt text](/Img/snn_featuremaps.png)
 
 The SNN shows a broader range of feature values and a lower mean compared to ResNet, indicating different data processing characteristics.
 ResNet’s feature maps are more consistent in range and display higher values, reflecting its capacity to capture a broader spectrum of features due to its deeper architecture.
 ### Spike and Membrane Potential Insights:
-![alt text](/Img/spikes)
-![alt text](/Img/membrane_potential)
+![alt text](/Img/spikes.png)
+![alt text](/Img/membrane_potential.png)
 
 The spike counts in the SNN are varied, suggesting a diverse response to different inputs. However, without training, these spikes do not directly translate to meaningful features or anomalies.
 Membrane potentials exhibit a wide range, reflecting the initial network state rather than learned features.
